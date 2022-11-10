@@ -1,0 +1,35 @@
+.info::before{
+    @include before-background;
+
+}
+.info{
+    position: relative;
+    background-image: url("/assets/images/slider/info\ slider.jpg");
+    background-attachment: fixed;
+    width: 1519px;
+    height: 315px;
+    background-size: cover;
+    .slider-container{
+        .slider-row{
+            display: flex;
+            justify-content: space-between;
+            position: absolute; 
+            top: 100px;
+             left: 300px;
+            font-weight: 500;
+            z-index: 2;
+            color: white;
+            span{
+                font-size: 32px;
+                text-align: center;
+            }
+            }
+          
+        }
+  
+            
+    }
+
+
+    
+

@@ -1,0 +1,60 @@
+#servers{
+    margin-top: 150px;
+    .servers-container{
+        .row-servers{
+            .col-3-server{
+                .card-server{
+                    width: 255px;
+                    height: 259.2px;
+                    .icon{
+                            width: 67px;
+                            height: 67px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: auto;
+                            margin-top: 5px;
+                            margin-bottom: 20px;
+                            position: relative;
+                            top: 18px;
+                            right: 18px;
+                            border-radius: 100%;
+                            background-color: #ffff;
+                       
+                           
+                          
+                           
+                           i{
+                            font-size: 18px;
+                            color: #585ce9
+
+                           }
+
+                    }
+                    .server-body{
+                        h5{
+                            color: #3B566E;
+                        }
+                    }
+
+                    
+                    
+                }
+                .card-server:hover {
+                    background-color: #585ce9;
+                    p{
+                        color: white;
+                    }
+                    h5{
+                        color: white;
+                    }
+                    
+                }
+            
+
+            }
+
+        }
+    }
+
+}

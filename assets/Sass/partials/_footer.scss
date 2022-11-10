@@ -1,0 +1,91 @@
+footer{
+    margin-top: 150px;
+    background-color: #585ce9;
+    .footer-container{
+        .footer-top-part{
+          .footer-row{
+            position: relative;
+            top: 50px;
+            .footer-left-part{
+                width: 50%;
+                color: #ffff;
+                .logo-about{
+                    margin-top: 30px;
+                  
+                }
+            }
+            .footer-right-part{
+         
+                width: 50%;
+                .header-title{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 50px;
+                    h5{
+                        color: #ffff;
+                    }
+                    .head-support{
+                        position: relative;
+                        right: 85px;
+                    }
+                    .head-contact{
+                        position: relative;
+                        right: 116px;
+                    }
+                 
+                }
+                .information{
+                    display: flex;
+                    justify-content: space-between;
+                    .helpful-links{
+                        .link{
+                            display: flex;
+                            color: #ffff;
+                            li{
+                                list-style-type:  none;
+                                margin-left: 5px;
+                           
+                            }
+                        }
+                    }
+                    .support{ 
+                        .link{
+                            color:#ffff;
+
+                            display: flex;
+                            li{
+                                list-style-type: none;
+                                    margin-left: 5px;
+                                   
+                                
+                            }
+                        }
+                    }
+                    .contact-footer{
+                        p{
+                            color: #ffff;
+                        }
+                        .icons{
+                            display: flex;
+                            li{
+                                list-style-type: none;
+                                margin-left: 5px;
+                                color: #ffff;
+                            }
+                        }
+
+                    }
+                }
+            }
+          }
+        }
+        .footer-bottom-part{
+            margin-top: 70px;
+            
+            p{
+                text-align: center;
+                color: #ffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+#contact{
+    margin-top: 100px;
+    .contact-container{
+        .contact-row{
+            p{
+                font-size: 22px;
+                z-index: 1;
+                color: #ffff;
+                span{
+                    text-decoration: underline;
+                    color: #ffff;
+                    text-align: center;
+                    
+                }
+            }
+            a{
+                width: 120px;
+                background-color: #ffff;
+                z-index: 1;
+
+            }
+        }
+    }
+}

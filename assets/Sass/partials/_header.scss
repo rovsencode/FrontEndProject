@@ -1,0 +1,98 @@
+header{
+background-color: #fff;
+z-index: 100;
+position: fixed;
+top: 0;
+width: 100%;
+    .navbar-section{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        
+        margin-left: 100px;
+        margin-top: 10px;
+      
+        .main-navbar{
+         margin-left: 50px;
+        }
+        .header-navbar{
+            .dropdown-discover{
+                position: relative;
+
+                .dropdown-content{
+                    display: none;
+                    position: absolute;
+                    a{
+                        text-decoration: none;
+                        display: block;
+                        margin-left: 20px;
+                        color: #3B566E;
+                        background-color: #ffff;
+                        width: 200px;
+                        height: 40px;
+                       
+                    }
+                }
+            }
+            .dropdown-discover:hover{
+                .dropdown-content{
+                    display: block;
+                }
+            }
+            li{
+                margin-left: 25px;
+                .nav-a{
+                    font-weight: 600px;
+                    font-size: 15px;
+                    color: #6F8BA4;
+                }
+                .nav-a:hover{
+                    color: #6F8BA4;                }
+            }
+        }
+        .header-buttons{
+            
+            margin-right: 100px;
+            position: relative;
+            bottom: 15px;
+            right: 115px;
+            .btn-sign{
+                border: 1px solid #585CE9;
+                border-radius: 5px;
+                min-width: 110px;
+                height: 32px;
+                text-align: center;
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-top: 32px;
+                font-weight: 700;
+                font-size: 12px;
+                position: relative;
+            }
+
+                .btn-in{
+                    color: #007bff;;
+          
+
+                }
+                .btn-in:hover{
+                    background-color: #585CE9;
+                    color: #fff;
+                }
+                .btn-up{
+                    margin-left: 15px;
+                    background-color: #585CE9;
+                    color: #fff;
+            
+
+                }
+                .btn-up:hover{
+                    background-color: #fff;
+                    color: #007bff;
+                }
+                
+            
+        }
+
+    }
+}

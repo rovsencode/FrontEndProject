@@ -1,0 +1,134 @@
+    #blog-read{
+        margin-top: 100px;
+    .read-container{
+        .read-row{
+            margin-left: 50px;
+            .left-part-read{
+                width: 50%;
+                .header-read{
+                    .blog-img-apr{
+                        width: 730px;
+                        height: 400px;
+                        margin-bottom:10px;
+                        overflow: hidden;
+                    }
+                }
+                .main-read{
+                    .header-text-read{
+                        .icons{ 
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .user-icon{
+                                margin-right: 7px;
+                               text-decoration: none;
+                                span{
+                                    
+                                    margin-left: 5px;
+                                }
+                            }
+                                .comment-icon{
+                                    text-decoration: none;
+                                    span{
+                                        margin-left: 5px;
+                                    }
+                                }
+                                    
+                                
+                            
+                        }
+                    }
+                 .blogs-imgs{
+                    display: flex;
+                  
+                    .blog{
+                       margin-right: 30px;
+                    }
+                    
+                 }   
+                }
+                .footer{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .comments{
+                    margin-top: 30px;
+                    background-color: #f1f1f1;
+                    .comment{
+                       .reply{
+                        position: relative;
+                        left: 390px;
+                       }
+                        .comment-text{
+                           
+                            margin-top: 10px;
+                    
+                        margin-left: 78px;
+                        }
+                        .header-comment{
+                            display: flex;
+                            .name{
+                                margin-left: 25px;
+                            }
+
+                        }
+                        margin-bottom: 10px;
+                        
+                    }
+                }
+                .mail-name{
+                    display: flex;
+                    input{
+                        width: 45%;
+                        margin-right: 5px;
+                    }
+                }
+                .comment-input{
+                    input{
+                    height: 145px;
+                    }
+                }
+
+            }
+           .right-part-read{
+            width: 50%;
+            .search {
+                position: relative;
+               
+                    left: 462px;
+                    #search-input {
+                        padding: 10px;
+                        font-size: 17px;
+                        border: 1px solid grey;
+                        float: left;
+                        width: 80%;
+                        background: #f1f1f1;
+                    }
+
+                    .search-btn {
+                        float: left;
+                        width: 20%;
+                        padding: 10px;
+                        background: #2196F3;
+                        color: white;
+                        font-size: 17px;
+                        border: 1px solid grey;
+                        border-left: none;
+                        cursor: pointer;
+                    }
+
+                    .search-btn:hover {
+                        background: #0b7dda;
+                    }
+
+                }
+
+           }
+
+        }
+    }
+    }
+   
+    
+    
+   

@@ -1,0 +1,49 @@
+#blog{
+    margin-top: 150px;
+    .blog-container{
+        .header-blog{
+            .title{
+                h5{
+                font-size: 28px;
+                color: #3B566E;
+                text-align: center;
+                margin-bottom: 26px;
+                }
+                p{
+                    margin-bottom: 52px;
+                    text-align: center;
+                    width: 36%;
+                    position: relative;
+                    left: 400px;
+                    font-size: 16px;
+                    color: #6F8BA4;
+                    
+                }
+                
+            }
+        }
+        .blog-row{
+            margin-left: 50px;
+           .col-4-blog{
+            width: 380px;
+            height: 490px;
+            .card-blog{
+             
+                .blog-body{
+                    .blog-title{
+                        font-size: 16px
+                    }
+                    .blog-text{
+                        font-size: 14px;
+                    }
+                    .btn-read{
+                        @include read-btn;
+                    }
+
+                }
+            }
+           } 
+        }
+      
+    }
+}

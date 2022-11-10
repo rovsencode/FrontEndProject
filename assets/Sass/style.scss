@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5410px;
+    overflow-x: hidden;    
+}
+@import "./partials/_generalmix.scss";
+@import "./partials/_header.scss";
+@import "./partials/_industry-section.scss";
+@import "./partials/_servers.scss";
+@import "./partials/_cloud-service.scss";
+@import "./partials/_development.scss";
+@import "./partials/_info-slider.scss";
+@import "./partials/_team-section.scss";
+@import "./partials/_pricing-plans.scss";
+@import "./partials/_contact-img.scss";
+@import "./partials/_blog.scss";
+@import "./partials/_footer.scss";
+@import "./partials/_blog-page.scss";

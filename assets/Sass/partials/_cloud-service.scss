@@ -1,0 +1,59 @@
+#cloud-service{
+    margin-top: 150px;
+    .cloud-container{
+        .cloud-row{
+            display: flex;
+            .cloud-left-part{
+                width: 50%;
+      
+                .buttons-info{
+                    display: flex;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    .info-cloud{
+                        
+                        width: 50%;
+                        .info-text{
+                            font-size: 14px;
+                            color: #5859ce;
+                        }
+                        .info-btn{
+                        span{
+                            color: #3b566e;
+                        }
+                        i{
+                            color: #3b566e
+                        }
+                     @include btn;
+                       
+                        }
+                        .info-btn:hover::after{
+                               @include btn-after;
+                               
+                        }
+                        .info-btn:hover{
+                            span {
+                                    position: relative;
+                                    left: 60px;
+                                }
+                            
+                                i {
+                                  @include icon;
+                                 
+                                   
+                                }
+                        }
+                         .info-btn::after{
+                       @include after;
+                    }
+                    }
+                   
+                }
+            }
+            .cloud-right-part{
+                width: 50%;
+            }
+
+        }
+    }
+}

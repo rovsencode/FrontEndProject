@@ -1,0 +1,53 @@
+#development{
+    margin-top: 250px;
+    .development-container{
+        .development-row{
+            .development-left-part{
+                width: 50%;
+            }
+            .development-right-part{
+                width: 50%;
+                .buttons-info{
+                    display: flex;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    .info-text{
+                        font-size: 14px;
+                        color: #585ce9;
+                    }
+                    .info-development{
+                        width: 50%;
+                        .info-btn{
+                            @include btn;
+                            span{
+                                color: #3b566e;
+                                
+                            }
+                            i{
+                                color: #3b566e;
+                            }
+
+                        }
+                        .info-btn:hover::after{
+                            @include btn-after;
+                        }
+                        .info-btn:hover{
+                            span{
+                                position: relative;
+                                left: 60px;
+                            }
+                            i{
+                                @include icon;
+                            }
+                        }
+                        .info-btn::after{
+                            @include after;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+}

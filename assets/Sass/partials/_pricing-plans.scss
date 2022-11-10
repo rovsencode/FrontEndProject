@@ -1,0 +1,65 @@
+#plans{
+    margin-top: 200px;
+    .container-plans{
+        .header-plans{
+            .title{
+                text-align: center;
+            }
+        }
+        .row-plans{
+            .col-4-plans{
+                .card-plans{
+                    .card-header{
+                        background-color: #5859ce;
+                        h5{
+                            color: #ffff;
+                        }
+                        .num-plan {
+                                text-align: center;
+                                margin-bottom: 36px;
+                                color: blue;
+                                background-color: #ffff;
+                                width: 42px;
+                                position: relative;
+                                left: 94px;
+                                top: 58px;
+                                font-size: 18px;
+                         
+                                
+                               
+                            }
+
+                        }
+                        
+                    .card-body-plans{
+                       
+                        .underline{
+                            text-decoration: line-through;
+                            font-size: 14px;
+                            color: #CCDCEA;
+
+                        }
+                        
+                        .money-plan{
+                    
+                           margin-left: 50px;
+                        }
+                        .btn-select{
+                            position: absolute;
+                            bottom: 20px;
+                            left: 60px;
+                        }
+                        .plan-text{
+                            margin-top: 20px;
+                            color: #3B566E;
+                            font-size: 14px;
+                        }
+
+                    }
+
+                }
+            }
+
+        }
+    }
+}
