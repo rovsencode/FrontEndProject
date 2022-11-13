@@ -1,0 +1,61 @@
+#servers{
+    .server-header{
+        .server-title{
+            h2{
+                font-size: 28px;
+                text-align: center;
+                color: #3b566e;
+            }
+            p{
+                width: 30%;
+                text-align: center;
+                position: relative;
+                left: 530px;
+                margin-bottom: 40px;
+                color: #6f8ba4;
+                
+
+            }
+
+        }
+    }
+}
+#about{
+    margin-top: 50px;
+    background: #F7FAFD;;
+    .about2-img{
+        img{
+                position: relative;
+                left: 250px;
+        }
+    }
+    .text-img-container{
+        .about-img-text{
+            position: relative;
+            .text{
+                background-color: #ffff;
+                position: absolute;
+                bottom: 60px;
+                left: 680px;
+                width: 444px;
+                height: 372px;
+                h2{
+                    font-size: 24px;
+                    color: #3B566E;
+                    margin-left: 10px;
+
+                }
+                p{
+                    font-size: 14px;
+                    color: #6F8BA4;
+                    width: 68%;
+                    margin-left: 50px;
+
+                    
+
+                }
+            }
+        }
+    }
+
+}

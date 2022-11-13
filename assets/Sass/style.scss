@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 5410px;
+    // height: 5410px;
     overflow-x: hidden;    
 }
 @import "./partials/_generalmix.scss";
@@ -20,3 +20,5 @@ body{
 @import "./partials/_blog.scss";
 @import "./partials/_footer.scss";
 @import "./partials/_blog-page.scss";
+@import "./partials/_contactPage.scss";
+@import "./partials/_about-page.scss";
