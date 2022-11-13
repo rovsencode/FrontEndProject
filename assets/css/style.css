@@ -1072,4 +1072,41 @@ footer .footer-container .footer-bottom-part p {
   width: 68%;
   margin-left: 50px;
 }
+
+#asked-questions {
+  margin-top: 50px;
+}
+
+#asked-questions .questions-container {
+  display: flex;
+}
+
+#asked-questions .questions-container .left-part-questions {
+  width: 50%;
+}
+
+#asked-questions .questions-container .left-part-questions h2 {
+  font-size: 30px;
+  color: #585CE9;
+}
+
+#asked-questions .questions-container .left-part-questions p {
+  color: #6f8ba4;
+  font-size: 16px;
+}
+
+#asked-questions .questions-container .left-part-questions .help-btn {
+  width: 160px;
+  height: 44px;
+}
+
+#asked-questions .questions-container .right-part-questions {
+  margin-left: 150px;
+  margin-top: 45px;
+}
+
+#asked-questions .questions-container p {
+  color: #3b566e;
+  font-size: 15px;
+}
 /*# sourceMappingURL=style.css.map */

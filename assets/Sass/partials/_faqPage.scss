@@ -1,0 +1,32 @@
+#asked-questions{
+    margin-top: 50px;
+    .questions-container{
+        display: flex;
+        .left-part-questions{
+            width: 50%;
+            h2{
+                font-size: 30px;
+                color: #585CE9;
+
+            }
+            p{
+                color: #6f8ba4;
+                font-size: 16px;
+            }
+            .help-btn{
+                width: 160px;
+                height: 44px;
+            }
+        }
+        .right-part-questions{
+
+                margin-left: 150px;
+                margin-top: 45px;
+                }
+            p{
+                color: #3b566e;
+                font-size: 15px;
+            }
+        }
+    
+    }
